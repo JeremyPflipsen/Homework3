@@ -1,4 +1,4 @@
-EMG.py holds a function EMG that takes in a pdf file, some number k of colors, and 
+EMG.py holds a function EMG that takes in a jpg file, some number k of colors, and 
 a flag value that is 0 or 1. The function clusters the colors of the pixels using k multivariate 
 gaussian distributions, then replaces each pixel with the center of the cluster
 to which the pixel belongs. The result is the original image but with only k colors. If the flag
